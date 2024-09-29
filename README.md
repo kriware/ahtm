@@ -36,6 +36,7 @@ You can install easyly the package using `setup.py`:
 ```bash
 sudo pip3 install -r requirements.txt
 sudo python3 setup.py install
+ahtm --install-completion # enable autocompletation
 source ~/.<YOURSHELL>rc # enable autocompletation
 ```
 
@@ -43,7 +44,7 @@ source ~/.<YOURSHELL>rc # enable autocompletation
 
 ### Command-Line Interface
 
-AHTM provides a simple command-line interface. You can use the following commands:
+AHTM provides a simple command-line interface. You can use the following commands with sudo:
 
 - **Install a Tool**:
   ```bash
@@ -65,13 +66,13 @@ AHTM provides a simple command-line interface. You can use the following command
 To install `jadx`, you would run:
 
 ```bash
-ahtm install jadx
+sudo ahtm install jadx
 ```
 
 To uninstall it, you would run:
 
 ```bash
-ahtm uninstall jadx
+sudo ahtm uninstall jadx
 ```
 
 To list all available tools:
