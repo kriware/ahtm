@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Docker
+.dockerignore
+
+# Project specific
+tools/**/output/
+uv.lock
+.python-version

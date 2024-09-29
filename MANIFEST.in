@@ -1,0 +1,4 @@
+include README.md
+recursive-include ahtm *.py
+recursive-include tools *
+include requirements.txt
