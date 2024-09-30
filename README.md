@@ -2,12 +2,11 @@
 
 # AHTM - Android Hacking Tools Manager
 
-AHTM is my command-line tool designed to manage various Android hacking tools easily. It allows users to install, uninstall, and list tools with simple commands.
+AHTM is a command-line tool designed to easily manage various Android hacking tools. It allows users to install, uninstall, and list tools with simple commands.
 
 ## Disclaimer
 
-This is a personal tool I use to manage Android tools in my projects, as I often forget how to install some of them and/or it takes time to go through the installation process for many of them. All scripts that may affect the system when the tool is executed are located under the **tools/** folder (you can review them yourself). I know it’s not perfect and may have bugs, but it saves me time. In short, it works.
-Docker has only been used for development
+This is a personal tool I created to manage Android tools in my projects, as I often forget how to install some of them or it takes time to go through the installation process for many. All scripts that may affect the system when the tool is executed are located under the tools/ folder (feel free to review them yourself). While I know it’s not perfect and may have bugs, it saves me time. In short, it works. Docker has only been used for development purposes.
 
 ## Features
 
@@ -21,6 +20,7 @@ Docker has only been used for development
 
 - Python 3.6 or higher
 - `pip3` (Python package installer)
+- **Operating System**: Tested on Ubuntu 20.04 and Debian 10 (may work on other Linux distributions).
 
 ### Clone the Repository
 
@@ -44,7 +44,7 @@ source ~/.<YOURSHELL>rc # enable autocompletation
 
 ### Command-Line Interface
 
-AHTM provides a simple command-line interface. You can use the following commands with sudo:
+AHTM provides a simple command-line interface. You can use the following commands (with sudo if required):
 
 - **Install a Tool**:
   ```bash
@@ -97,7 +97,7 @@ ahtm list_tools
 
 ## TODO:
 
-### Tools available in the early future
+### Tools Coming Soon
 - **`zipalign`**
 - **`imjtool`**
 - **`r2frida`**
@@ -116,8 +116,8 @@ ahtm list_tools
 - **`mobsf`**
 
 ### Future features
-- Install a specific version on demand
-- Check the installed version and verify if a new version is available
+- Install specific versions on demand
+- Check the installed version and verify if a newer version is available.
 
 ## Contributing
 
